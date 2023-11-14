@@ -1,5 +1,3 @@
-#!/bin/bash
-
 fileName="Channel_Comparison"
 
 javac "${fileName}.java"
@@ -14,9 +12,10 @@ java "${fileName}"
 rm -f *.class
 
 for file in *.txt; do
-    if [ "${file,,}" != "FileInput.txt" ] && [ "${file,,}" != "FileInputBig.txt" ]; then
-        rm -f "${file}"
+    lowercaseFile=$(echo "$file" | tr '[:upper:]' '[:lower:]')
+    if [ "$lowercaseFile" != "fileinput.txt" ]; then
+        if [ "$lowercaseFile" != "fileinputbig.txt" ]; then
+            rm -f "$file"
+        fi
     fi
 done
-
-
