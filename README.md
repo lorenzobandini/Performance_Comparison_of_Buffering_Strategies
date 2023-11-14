@@ -26,7 +26,6 @@ The project is a Java Project. To run it, you need to have Java installed on you
 After that, you can run the project by opening a terminal in the directory and executing the following commands depending on your operating system:
 
 **Mac/Linux**
-
 Give the permission to execute the script (only the first time):
 
 ```bash
@@ -40,7 +39,6 @@ and then execute it:
 ```
 
 **Windows**
-
 Just execute it:
 
 ```batch
