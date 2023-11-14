@@ -27,7 +27,7 @@ After that, you can run the project by opening a terminal in the directory and e
 
 **Mac/Linux**
 
-give the permission to execute the script (only the first time):
+Give the permission to execute the script (only the first time):
 
 ```bash
 chmod +x exec.sh
