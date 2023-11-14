@@ -25,7 +25,7 @@ The results are presented in the following table:
 The project is a Java Project. To run it, you need to have Java installed on your machine.
 After that, you can run the project by opening a terminal in the directory and executing the following commands depending on your operating system:
 
-### Mac/Linux
+**Mac/Linux**
 
 give the permission to execute the script (only the first time):
 
@@ -39,7 +39,7 @@ and then execute it:
 ./exec.sh
 ```
 
-### Windows
+**Windows**
 
 Just execute it:
 
