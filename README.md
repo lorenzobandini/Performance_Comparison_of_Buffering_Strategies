@@ -6,7 +6,7 @@ This project compares the performance of different buffering strategies in Java.
 
 - FileChannel with indirect buffers
 - FileChannel with direct buffers
-- FileChannel using the transferTo() operation
+- FileChannel using the `transferTo()` operation
 - Buffered I/O Stream
 - Stream read into a byte array managed by the programmer
 
